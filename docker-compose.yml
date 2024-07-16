@@ -9,7 +9,6 @@ services:
     depends_on:
       - php
 
-
   php:
     build:
       context: ./docker/php
@@ -18,7 +17,6 @@ services:
         PHP_VERSION: 8.2.0
     volumes:
       - ./src:/var/www/
-
 
   mysql:
     image: mysql:8.0.26
@@ -31,7 +29,6 @@ services:
     volumes:
       - ./docker/mysql/data:/var/lib/mysql
       - ./docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
-
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
