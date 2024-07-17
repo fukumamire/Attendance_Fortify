@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// ブラウザで確認するために便宜作成　Fortifyをインストール後削除予定
+Route::view('/register', 'auth.register')->name('register');

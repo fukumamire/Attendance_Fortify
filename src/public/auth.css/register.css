@@ -3,8 +3,8 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 40px;
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
 }
 
 /* タイトルのスタイル */
@@ -19,24 +19,20 @@
   margin-bottom: 20px;
 }
 
-.register-form label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #555;
-}
 
 .register-form input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #333;
   border-radius: 4px;
   font-size: 16px;
+  background-color: gainsboro;
 }
 
+/* ユーザーがinput要素にフォーカスを当てた状態 */
 .register-form input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #0264ce;
 }
 
 /* ボタンのスタイル */
@@ -44,7 +40,7 @@
   display: block;
   width: 100%;
   padding: 12px;
-  background-color: #007bff;
+  background-color: #0264ce;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -65,8 +61,9 @@
 }
 
 .login-link a {
-  color: #007bff;
+  color: #0264ce;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .login-link a:hover {

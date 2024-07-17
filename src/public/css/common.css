@@ -2,7 +2,8 @@
 .header {
     background-color: #fff;
     color: #333;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
 }
 
 .header-content {
@@ -32,7 +33,7 @@ main {
 .footer {
     background-color: #fff;
     color: #333;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
 }
 

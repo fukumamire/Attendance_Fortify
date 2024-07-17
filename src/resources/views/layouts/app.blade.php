@@ -20,7 +20,7 @@
 
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; Atte, inc.</p>
+            <p>Atte, inc.</p>
         </div>
     </footer>
 </body>
