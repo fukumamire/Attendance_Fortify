@@ -1,0 +1,68 @@
+/* 全体のスタイル */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* タイトルのスタイル */
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* フォームのスタイル */
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: gainsboro;
+}
+
+/* ユーザーがinput要素にフォーカスを当てた状態 */
+.login-form input:focus {
+  outline: none;
+  border-color: #0264ce;
+}
+
+/* ボタンのスタイル */
+.login-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #0264ce;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 会員登録リンクのスタイル */
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+.register-link a {
+  color: #0264ce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

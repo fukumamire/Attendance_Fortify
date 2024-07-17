@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 // ブラウザで確認するために便宜作成　Fortifyをインストール後削除予定
 Route::view('/register', 'auth.register')->name('register');
+
+// 便宜　
+Route::view('/login', 'auth.login')->name('login');
