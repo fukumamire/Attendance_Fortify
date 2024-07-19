@@ -21,3 +21,6 @@ Route::view('/register', 'auth.register')->name('register');
 
 // 便宜　
 Route::view('/login', 'auth.login')->name('login');
+
+//便宜
+Route::view('/', 'stamp')->name('stamp');
