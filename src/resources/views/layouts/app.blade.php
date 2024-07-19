@@ -13,6 +13,13 @@
   <header class="header">
     <div class="header-content">
       <a href="/" class="logo">Atte</a>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">日付一覧</a></li>
+          <li><a href="#">ログアウト</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
