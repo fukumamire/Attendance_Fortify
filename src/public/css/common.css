@@ -30,6 +30,8 @@
 
 .header-nav li {
     margin-left: 2rem;
+    vertical-align: middle;
+    /* メニューアイテムの垂直方向の配置を中央揃え　ログアウトが下にずれたため */
 }
 
 .header-nav a {

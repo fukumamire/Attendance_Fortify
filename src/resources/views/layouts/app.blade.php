@@ -17,7 +17,7 @@
         <ul>
           <li><a href="/">ホーム</a></li>
           <li><a href="#">日付一覧</a></li>
-          <li><button class="logout-btn">ログアウト</button></li>
+          <li><a href="#">ログアウト</a></li>
         </ul>
       </nav>
     </div>
