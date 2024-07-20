@@ -15,9 +15,9 @@
       <a href="/" class="logo">Atte</a>
       <nav class="header-nav">
         <ul>
-          <li><a href="#">ホーム</a></li>
+          <li><a href="/">ホーム</a></li>
           <li><a href="#">日付一覧</a></li>
-          <li><a href="#">ログアウト</a></li>
+          <li><button class="logout-btn">ログアウト</button></li>
         </ul>
       </nav>
     </div>
