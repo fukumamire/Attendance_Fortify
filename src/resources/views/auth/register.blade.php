@@ -6,13 +6,23 @@
 
 <div class="register-container">
   <h1>会員登録</h1>
+  @if ($errors->any())
+  <div class="alert alert-danger">
+    <ul>
+      @foreach ($errors->all() as $error)
+      <li>{{ $error }}</li>
+      @endforeach
+    </ul>
+  </div>
+  @endif
+
   <form class="register-form" method="POST" action="{{ route('register') }}">
     @csrf
     <div class="form-group">
-      <input type="text" id="name" name="name" placeholder="名前を入力してください" required>
+      <input type="text" id="name" name="name" placeholder="名前を入力してください"  value="{{ old('name') }}" required>
     </div>
     <div class="form-group">
-      <input type="email" id="email" name="email" placeholder="メールアドレスを入力してください" required>
+      <input type="email" id="email" name="email" placeholder="メールアドレスを入力してください"  value="{{ old('email') }}" required>
     </div>
     <div class="form-group">
       <input type="password" id="password" name="password" placeholder="パスワードを入力してください" required>
