@@ -7,12 +7,12 @@
   <h1>●●さん　お疲れ様です。</h1>
   <div class="attendance-buttons">
     <div class="button-group">
-      <button class="start-work">勤務開始</button>
-      <button class="end-work">勤務終了</button>
+      <button id="start-work" class="start-work">勤務開始</button>
+      <button id="end-work" class="end-work" disabled>勤務終了</button>
     </div>
     <div class="button-group">
-      <button class="start-break">休憩開始</button>
-      <button class="end-break">休憩終了</button>
+      <button id="start-break" class="start-break">休憩開始</button>
+      <button id="end-break" class="end-break" disabled>休憩終了</button>
     </div>
   </div>
 </div>
